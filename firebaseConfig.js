@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDAd419p5lcvOe18k6UcLcYJvP3wW8lLY4",
-    authDomain: "docloader-2f240.firebaseapp.com",
-    projectId: "docloader-2f240",
-    storageBucket: "docloader-2f240.appspot.com",
-    messagingSenderId: "977545538569",
-    appId: "1:977545538569:web:426ba94771fc907978dcd8"
+  apiKey: "AIzaSyCZs-9eiiDW45pFYPRJCvnGQxCuVZS3-eM",
+  authDomain: "docloader-f52a9.firebaseapp.com",
+  projectId: "docloader-f52a9",
+  storageBucket: "docloader-f52a9.appspot.com",
+  messagingSenderId: "1068592593119",
+  appId: "1:1068592593119:web:828ec2df874ce0f857116a"
 };
 
 // Initialize Firebase

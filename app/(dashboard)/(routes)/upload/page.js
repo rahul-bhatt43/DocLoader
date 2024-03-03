@@ -43,7 +43,7 @@ const Upload = () => {
           setTimeout(() => {
             setUploadCompleted(false);
             router.push(`/file-preview/${docId}`);
-          }, 2000)
+          }, 5000)
         }
       },
       (error) => {
@@ -79,6 +79,7 @@ const Upload = () => {
       fileType: file?.type,
       fileUrl: fileUrl,
       userEmail: user?.primaryEmailAddress.emailAddress || "",
+      password:"",
       userName: user?.fullName || "",
       shortUrl: process.env.NEXT_PUBLIC_BASE_URL + docId,
     });
